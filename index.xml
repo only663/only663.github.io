@@ -13,7 +13,62 @@
         <pubDate>Sun, 20 Apr 2025 12:33:50 +0800</pubDate>
         
         <guid>https://only663.github.io/p/welcome/</guid>
-        <description></description>
+        <description>&lt;h1 id=&#34;-欢迎来到网络安全守护者营地-&#34;&gt;🔒 欢迎来到网络安全守护者营地 🛡️
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1350&amp;amp;q=80&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;网络安全概念图&#34;
+	
+	
+&gt;
+&lt;em&gt;图片来源：Unsplash 网络安全概念图&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-开启您的数字安全之旅&#34;&gt;🚀 开启您的数字安全之旅
+&lt;/h2&gt;&lt;p&gt;欢迎来到这个充满挑战与机遇的网络安全世界！在这里，我们将共同探索：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🔍 网络攻防最前线&lt;/li&gt;
+&lt;li&gt;🛡️ 数据加密与隐私保护&lt;/li&gt;
+&lt;li&gt;💻 恶意软件分析与防御&lt;/li&gt;
+&lt;li&gt;🌐 物联网安全新战场&lt;/li&gt;
+&lt;li&gt;🚨 最新安全漏洞速递&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-本周焦点专栏&#34;&gt;📌 本周焦点专栏
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1573166364906-5b34ebd8b2b8?ixlib=rb-1.2.1&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1350&amp;amp;q=80&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;漏洞预警&#34;
+	
+	
+&gt;
+&lt;em&gt;图片来源：Unsplash 代码安全示意图&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;零日漏洞预警&lt;/strong&gt;&lt;br&gt;
+🔥 最新披露的Apache Log4j2漏洞深度解析&lt;br&gt;
+🛠️ 临时缓解方案与补丁更新指南&lt;br&gt;
+🔗 相关CVE编号：CVE-2021-44228&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-实用工具推荐&#34;&gt;🛠️ 实用工具推荐
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 常用网络安全工具速查&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sV -O target_ip
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wireshark &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;metasploit-framework
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
         </item>
         <item>
         <title>BlogCreate</title>
@@ -21,7 +76,8 @@
         <pubDate>Sun, 20 Apr 2025 01:23:49 +0800</pubDate>
         
         <guid>https://only663.github.io/p/blogcreate/</guid>
-        <description></description>
+        <description>&lt;p&gt;11111&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>welcome MyFirstBlog</title>

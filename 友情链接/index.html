@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://only663.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/'>
 
-<link rel="stylesheet" href="/scss/style.min.9e34e5cbfbc7ebb0bfb9c3b6a8c246e1ce2d6523fd88c53f4353401684b96797.css"><meta property='og:title' content="友情链接">
+<link rel="stylesheet" href="/scss/style.min.185169d58de189e9172f0473cac95811aa838b2af3f4ff3fa3d1f2e2df985c42.css"><meta property='og:title' content="友情链接">
 <meta property='og:description' content="To use this feature, add links section to frontmatter.\nThis page&rsquo;s frontmatter:\n1 2 3 4 5 6 7 8 9 links: - title: GitHub description: GitHub is the world&#39;s largest software development platform. website: https://github.com image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png - title: TypeScript description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. website: https://www.typescriptlang.org image: ts-logo-128.jpg image field accepts both local and external images.\n">
 <meta property='og:url' content='https://only663.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/'>
 <meta property='og:site_name' content='Only&#39;Blog'>
@@ -70,7 +70,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Only&#39;Blog</a></h1>
-            <h2 class="site-description">演示说明</h2>
+            <h2 class="site-description">欢迎来到我的博客</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -538,6 +538,102 @@
     --code-font-family: 'onlyzt';
   }
 </style>
+
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+
+
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://only663.github.io/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
 
     </body>
 </html>
